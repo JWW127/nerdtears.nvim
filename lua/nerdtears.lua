@@ -87,14 +87,14 @@ NerdTears.palette = {
   light4 = "#E0D8B0",
   bright_red = "#ff5040",
   bright_green = "#E0D8B0", --(acutally not green its beige)
-  bright_yellow = "#ff9200", --(actually yellow)
-  bright_blue = "#ffffff", --(actually peach)
+  bright_yellow = "#ff9200", --(actually orange)
+  bright_blue = "#ffffff", --(actually white)
   bright_purple = "#ff9200",
   bright_aqua = "#30FF6B",
   bright_orange = "#30ff6b",
   neutral_red = "#F28F6B",
   neutral_green = "#E0D8B0", --(acutally not green its beige)
-  neutral_yellow = "#ff9200", --(actually coral)
+  neutral_yellow = "#ff9200", --(actually orange)
   neutral_blue = "#006a78",
   neutral_purple = "#ff9200",
   neutral_aqua = "#30FF6B",
@@ -296,10 +296,10 @@ local function get_groups()
     MatchParen = { bg = colors.bg3, bold = config.bold },
     ColorColumn = { bg = colors.bg1 },
     Conceal = { fg = colors.blue },
-    CursorLineNr = { fg = colors.yellow, bg = colors.bg1 },
+    CursorLineNr = { fg = colors.bright_red, bg = colors.bg1 },
     NonText = { link = "NerdTearsBg2" },
     SpecialKey = { link = "NerdTearsFg4" },
-    Visual = { bg = "#1090af", reverse = config.invert_selection },
+    Visual = { bg = colors.dark_green, reverse = config.invert_selection },
     VisualNOS = { link = "Visual" },
     Search = { fg = colors.yellow, bg = colors.bg0, reverse = config.inverse },
     IncSearch = { fg = colors.orange, bg = colors.bg0, reverse = config.inverse },
