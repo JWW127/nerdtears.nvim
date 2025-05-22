@@ -81,13 +81,13 @@ NerdTears.palette = {
   light0_hard = "#E0D8B0",
   light0 = "#E0D8B0",
   light0_soft = "#E0D8B0",
-  light1 = "#ff9200",
-  light2 = "#E0D8B0",
+  light1 = "#E0D8B0",
+  light2 = "#ff9200",
   light3 = "#E0D8B0",
   light4 = "#E0D8B0",
   bright_red = "#ff5040",
   bright_green = "#E0D8B0", --(acutally not green its beige)
-  bright_yellow = "#ff9200", --(actually coral)
+  bright_yellow = "#ff9200", --(actually yellow)
   bright_blue = "#f28f6b", --(actually peach)
   bright_purple = "#ff9200",
   bright_aqua = "#30FF6B",
@@ -100,7 +100,7 @@ NerdTears.palette = {
   neutral_aqua = "#30FF6B",
   neutral_orange = "#f28f6b",
   faded_red = "#ff5040",
-  faded_green = "#79740e",
+  faded_green = "#557766",
   faded_yellow = "#ff9200",
   faded_blue = "#076678",
   faded_purple = "#ff9200",
@@ -124,7 +124,7 @@ NerdTears.palette = {
   light_aqua_hard = "#006a78",
   light_aqua = "#006a78",
   light_aqua_soft = "#006a78",
-  gray = "#928374",
+  gray = "#333333",
 }
 
 -- get a hex list of nerdtears colors based on current bg and constrast config
@@ -251,7 +251,7 @@ local function get_groups()
     NerdTearsBg3 = { fg = colors.bg3 },
     NerdTearsBg4 = { fg = colors.bg4 },
     NerdTearsRed = { fg = colors.red },
-    NerdTearsRedBold = { fg = colors.red, bold = config.bold },
+    NerdTearsRedBold = { fg = colors.red, bold = true },
     NerdTearsGreen = { fg = colors.green },
     NerdTearsGreenBold = { fg = colors.green, bold = config.bold },
     NerdTearsYellow = { fg = colors.yellow },
@@ -313,13 +313,13 @@ local function get_groups()
     WinSeparator = config.transparent_mode and { fg = colors.bg3, bg = nil } or { fg = colors.bg3, bg = colors.bg0 },
     WildMenu = { fg = colors.blue, bg = colors.bg2, bold = config.bold },
     Directory = { link = "NerdTearsGreenBold" },
-    Title = { link = "NerdTearsGreenBold" },
+    Title = { link = "NerdTearsGreenBold", bold = true },
     ErrorMsg = { fg = colors.bg0, bg = colors.red, bold = config.bold },
     MoreMsg = { link = "NerdTearsYellowBold" },
     ModeMsg = { link = "NerdTearsYellowBold" },
     Question = { link = "NerdTearsOrangeBold" },
     WarningMsg = { link = "NerdTearsRedBold" },
-    LineNr = { fg = colors.bg4 },
+    LineNr = { fg = "#ff9200" },
     SignColumn = config.transparent_mode and { bg = nil } or { bg = colors.bg1 },
     Folded = { fg = colors.gray, bg = colors.bg1, italic = config.italic.folds },
     FoldColumn = config.transparent_mode and { fg = colors.gray, bg = nil } or { fg = colors.gray, bg = colors.bg1 },
