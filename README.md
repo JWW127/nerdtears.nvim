@@ -3,7 +3,7 @@
 Simple High Contrast Neovim Theme
 
 <div align="center">
-    <img src="https://res.cloudinary.com/dpc3zrcvs/image/upload/v1747933214/nerdtears-demo_d6c3hu.png">
+    <img src="https://res.cloudinary.com/dpc3zrcvs/image/upload/t_700 nerdtears/v1747933214/nerdtears-demo_d6c3hu.png">
 </div>
 
 ## Install
