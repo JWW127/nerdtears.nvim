@@ -348,7 +348,7 @@ local function get_groups()
     PreCondit = { link = "NerdTearsAqua" },
     Constant = { link = "NerdTearsPurple" },
     Character = { link = "NerdTearsPurple" },
-    String = { fg = colors.green, italic = config.italic.strings },
+    String = { fg = "#ff9200", italic = config.italic.strings },
     Boolean = { link = "NerdTearsPurple" },
     Number = { link = "NerdTearsPurple" },
     Float = { link = "NerdTearsPurple" },
