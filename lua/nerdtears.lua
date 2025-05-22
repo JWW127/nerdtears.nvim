@@ -88,7 +88,7 @@ NerdTears.palette = {
   bright_red = "#ff5040",
   bright_green = "#E0D8B0", --(acutally not green its beige)
   bright_yellow = "#ff9200", --(actually yellow)
-  bright_blue = "#f28f6b", --(actually peach)
+  bright_blue = "#ffffff", --(actually peach)
   bright_purple = "#ff9200",
   bright_aqua = "#30FF6B",
   bright_orange = "#30ff6b",
@@ -299,7 +299,7 @@ local function get_groups()
     CursorLineNr = { fg = colors.yellow, bg = colors.bg1 },
     NonText = { link = "NerdTearsBg2" },
     SpecialKey = { link = "NerdTearsFg4" },
-    Visual = { bg = colors.bg3, reverse = config.invert_selection },
+    Visual = { bg = "#1090af", reverse = config.invert_selection },
     VisualNOS = { link = "Visual" },
     Search = { fg = colors.yellow, bg = colors.bg0, reverse = config.inverse },
     IncSearch = { fg = colors.orange, bg = colors.bg0, reverse = config.inverse },
