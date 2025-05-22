@@ -124,7 +124,7 @@ NerdTears.palette = {
   light_aqua_hard = "#006a78",
   light_aqua = "#006a78",
   light_aqua_soft = "#006a78",
-  gray = "#333333",
+  gray = "#666666",
 }
 
 -- get a hex list of nerdtears colors based on current bg and constrast config
