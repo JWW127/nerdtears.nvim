@@ -37,4 +37,4 @@ use { "JWW127/nerdtears.nvim" }
 ## Inspiration
 
 I essentially used @ellisonleao's gruvbox as a template then adjusted colors to my taste.
-[https://github.com/ellisonleao](ellisonleao)
+[ellisonleao](https://github.com/ellisonleao)
