@@ -71,10 +71,10 @@ NerdTears.config = {
 -- main nerdtears color palette
 ---@class NerdTearsPalette
 NerdTears.palette = {
-  dark0_hard = "#113333",
+  dark0_hard = "#112222",
   dark0 = "#000000",
   dark0_soft = "#221111",
-  dark1 = "#333333",
+  dark1 = "#141114",
   dark2 = "#010101",
   dark3 = "#222222",
   dark4 = "#010101",
